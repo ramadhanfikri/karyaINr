@@ -1,0 +1,145 @@
+/*HOME*/
+
+
+/*navbar*/
+.navbar-nav li a{
+  color: white;
+}
+.font .nav-item .nav-link{
+  color: black
+}
+/*navbar*/
+
+
+/*slidebar pada home*/
+.carousel-item{
+  height: 100vh;
+}
+/*slidebar/home*/
+
+
+/*kalimat find your dreams*/
+.kalimat h3{
+  padding: 70px;
+  height: 50px;
+  width: 100;
+}
+
+
+
+/*HOME*/
+
+
+/*KARYA1*/
+ .img0{
+  width: 100%;
+  height:250px;
+}
+
+}
+.bcard{
+  width: 100%;
+  height: 1100px;
+  margin-top: -100px;
+  background-color: moccasin;
+  border: 1px solid orange;
+}
+.bcard1{
+  float:left;
+  margin-left: 70px;
+  margin-top: 60px;
+  max-width: 350px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+
+ .container2 .contain .box3 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #ff0;
+    border-radius: 8px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  .container2 .contain .box3 .imgbox {
+    position: relative;
+    overflow: hidden;
+   }
+  .container2 .contain .box3 .imgbox img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    transition: transform 10s;
+  }
+  .container2 .contain .box3:hover .imgbox img {
+    transform: scale(1.2);
+  }
+  .container2 .contain .box3 .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+  } 
+
+  .container2 .contain .box3:hover .details{
+    transform: scaleY(1);
+  }
+  .container2 .contain .box3 .details .content3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+
+  }
+  .container2 .contain .box3 .details .content3 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #ff0;
+    padding-top: 20px;
+  }
+  .container2 .contain .box3 .details .content3 p {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+  }
+
+/*paralax*/
+ .paralax{
+  background-image: url("paralex.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*paralax*/
+
+.card{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.card1{
+  float:left;
+  margin-left: 50px;
+  margin-top: 60px;
+  max-width: 400px;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  border-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 10px;
+}

@@ -1,0 +1,24 @@
+
+/*navbar*/
+.navbar-nav li a{
+	color: white;
+}
+.font .nav-item .nav-link{
+	color: black
+}
+/*navbar*/
+
+
+/*slidebar pada home*/
+.carousel-item{
+	height: 100vh;
+}
+/*slidebar/home*/
+
+
+/*kalimat find your dreams*/
+.kalimat h3{
+	padding: 70px;
+	height: 50px;
+	width: 100;
+}
